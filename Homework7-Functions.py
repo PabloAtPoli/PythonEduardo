@@ -145,14 +145,14 @@ def is_prime(n):
 #     else:
 #         return True
 
-
-# count = 0
-# i = 2
-# while count < 100:
-#     if is_prime(i):
-#         print(i, end=", ")
-#         count += 1
-#     i += 1
+print("The first 100 prime numbers are:")
+count = 0
+i = 2
+while count < 100:
+    if is_prime(i):
+        print(i, end=", ")
+        count += 1
+    i += 1
 #
 # print()
 # Says if a number is prime or not, using for else loop
