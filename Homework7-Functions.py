@@ -190,16 +190,16 @@ else:
     print(n, " is not prime")
 
 
-# Says if a number is prime or not, optimized and using for else loop
-# def is_prime_optimized(n):
-#     if n <= 1:
-#         return False
-#     for i in range(2, int(n ** 0.5) + 1):
-#         if n % i == 0:
-#             break
-#             return False
-#     else:
-#         return True
+#Says if a number is prime or not, optimized and using for else loop
+def is_prime_optimized(n):
+    if n <= 1:
+        return False
+    for i in range(2, int(n ** 0.5) + 1):
+        if n % i == 0:
+            break
+            return False
+    else:
+        return True
 
 
 
