@@ -1,4 +1,4 @@
-
+#Commit A
 
 
 # swap of variables using addition and subtractions
@@ -213,19 +213,19 @@ def is_prime_optimized(n):
 
 
 
-# swap of variables using addition and subtractions
-# def arithmetic_swap(a, b):
-#     sum_variables = a + b
-#     a = sum_variables - a
-#     b = sum_variables - b
-#     return a, b
-#
-#
-# x = 4
-# y = 5
-# print("Before arithmetic swap: x =  ", x, " y = ", y)
-# x, y = arithmetic_swap(x, y)
-# print("After arithmetic swap: x =  ", x, " y = ", y)
+#swap of variables using addition and subtractions
+def arithmetic_swap(a, b):
+    sum_variables = a + b
+    a = sum_variables - a
+    b = sum_variables - b
+    return a, b
+
+
+x = 4
+y = 5
+print("Before arithmetic swap: x =  ", x, " y = ", y)
+x, y = arithmetic_swap(x, y)
+print("After arithmetic swap: x =  ", x, " y = ", y)
 
 # swap of variables using no additional  memory
 # def no_additional_memory_swap(a, b):
